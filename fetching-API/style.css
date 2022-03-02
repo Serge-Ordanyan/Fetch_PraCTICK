@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;0,700;1,400&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Open Sans",sans-serif;
+    
+}
+
+body::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.7;
+    background-color: rgba(22, 22, 22, 0.425);
+    z-index: -1;
+
+}
+
+
+.user-profile{
+    background-color: rgb(255, 249, 249);
+    margin-top: 6%;
+    width: 100%;
+    max-width: 30%;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: rgba(0,0,0,0.4)0px 30px 90px;
+
+
+}
+
+.profile-top{
+    background: linear-gradient(to right,#d3cfd6,#a78cdf);
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.profile-top img{
+ border-radius: 50%;
+ border: 5px solid white;
+}
+
+.profile-top .profile-info{
+    margin-top: 1rem;
+}
+
+.profile-bottom{
+    padding: 3rem 3rem 1rem 3rem;
+}
+
+.profile-bottom .profile-info{
+    background-color: rgba(173, 173, 173, 0.404);
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(50,50,93,0.25f)0px 13px 27px -5px,rgba(0,0,0,0.3)0px 8px 16px -8px ;
+}
+
+
+.profile-bottom .profile-info .material-icons{
+    margin-left: 0.5rem;
+    color: #232124;
+    margin-right: 0.2rem;
+}
+
+button{
+    margin-top: 2rem;
+    outline: none;
+    border: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
